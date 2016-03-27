@@ -1,0 +1,18 @@
+[
+  {
+    width: "100%",
+    title: "2016 Rip Curl Pro Bells Beach",
+    controls: true,
+    date: "27/03/2016",
+    mp4Src: "http://7xrtnk.com1.z0.glb.clouddn.com/bells-beach.mp4",
+    description: "The Rip Curl Pro is the longest running professional surfing contest in the world, and this year will be the 55th running of the event."
+  },
+  {
+    width: "100%",
+    title: "Frankston Ride",
+    controls: true,
+    date: "05/03/2016",
+    mp4Src: "http://7xrtnk.com1.z0.glb.clouddn.com/rides.mp4",
+    description: "Afternoon ride at Frankston beach."
+  }
+]

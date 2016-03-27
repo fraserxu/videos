@@ -31,3 +31,24 @@ main {
   max-width: 480px;
   margin: 0 auto;
 }
+
+.list {
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  list-style: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 4px 8px;
+}
+
+article p {
+  padding: 8px 10px;
+}

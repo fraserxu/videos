@@ -4,24 +4,25 @@
   "description": "https://videos.fraserxu.me",
   "main": "index.js",
   "scripts": {
-    "build": "browserify index.js -o bundle.js -t csjs-injectify",
-    "start": "wzrd index.js:bundle.js -- -t csjs-injectify",
+    "build": "browserify index.js -o bundle.js",
+    "start": "wzrd index.js:bundle.js",
     "deploy": "./deploy.sh"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fraserxu/videos.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Fraser Xu",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fraserxu/videos/issues"
   },
   "homepage": "https://github.com/fraserxu/videos#readme",
   "devDependencies": {
     "browserify": "^13.0.0",
-    "csjs-injectify": "^1.0.0",
-    "wzrd": "^1.3.1"
+    "gh-pages": "^0.11.0",
+    "wzrd": "^1.3.1",
+    "yo-yoify": "^1.0.2"
   },
   "dependencies": {
     "csjs": "^1.0.1",

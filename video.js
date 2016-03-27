@@ -1,4 +1,4 @@
-var bel = require('bel')
+var yo = require('yo-yo')
 
 module.exports = function (opts) {
   opts = opts || {}
@@ -10,12 +10,12 @@ module.exports = function (opts) {
   var autoplay = opts.autoplay ? 'autoplay' : ''
   var buffered = opts.buffered ? 'buffered' : ''
   var poster = opts.poster || ''
-  var mp4Src = opts.mp4Src ? bel`<source src=${opts.mp4Src} type="video/mp4">` : ''
-  var oggSrc = opts.oggSrc ? bel`<source src=${opts.oggSrc} type="video/ogg">` : ''
-  var webmSrc = opts.webmSrc ? bel`<source src=${opts.webmSrc} type="video/webm">` : ''
+  var mp4Src = opts.mp4Src ? yo`<source src='${opts.mp4Src}' type='video/mp4'>` : ''
+  var oggSrc = opts.oggSrc ? yo`<source src='${opts.oggSrc}' type='video/ogg'>` : ''
+  var webmSrc = opts.webmSrc ? yo`<source src='${opts.webmSrc}' type='video/webm'>` : ''
 
-  return bel`<div>
-    <video width=${width} height=${height} style=${styles} ${controls} poster=${poster} >
+  return yo`<div>
+    <video width='${width}' height='${height}' style='${styles}' '${controls}' poster='${poster}'>
       ${mp4Src}
       ${oggSrc}
       ${webmSrc}
