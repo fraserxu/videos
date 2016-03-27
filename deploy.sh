@@ -10,6 +10,6 @@ npm run build
 
 cp -r index.html index.css bundle.js CNAME dist
 
-./node_modules/.bin/gh-pages -d dist
+# surge dist videos.fraserxu.me
 
-rm -rf dist
+# rm -rf dist
